@@ -1,0 +1,7 @@
+localhost:80
+gzip
+log stdout
+error stdout
+proxy / proxy.local {
+	policy least_conn
+}
